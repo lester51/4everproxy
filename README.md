@@ -21,13 +21,13 @@ import webproxy from "4everproxy";
 
 ## SIMPLE USAGE
 ```js
-(async()=>{
-    //CommonJS
-    const webproxy = require("4everproxy");
-    
-    //ES MODULE
-    import webproxy from "4everproxy";
+//CommonJS
+const webproxy = require("4everproxy");
 
+//ES MODULE
+import webproxy from "4everproxy"
+
+(async()=>{
     //THIS FUNC. IS FOR GETTING THE COOKIES AND AVAILABLE SERVERS & IP'S TO BE USED ON REQ.
     let {proxy_list,cookie} = await webproxy.getConfig()
     console.log(proxy_list)
