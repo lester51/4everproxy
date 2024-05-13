@@ -55,14 +55,14 @@ import webproxy from "4everproxy";
 //getObjectByLocation([keyword:string],[array]).yourObjectKey
 
 //for server_name
-webproxt.getObjectByLocation('newyork',proxy_list.ips).ip
+webproxt.getObjectByLocation('newyork',proxy_list.servers).server_name
 //for selip
 webproxy.getObjectByLocation('newyork',proxy_list.ips).ip
 ```
 ### Here's an example on `getObjectByLocation()`
 ```perl
 let formData = {
-    server_name: webproxt.getObjectByLocation('newyork',proxy_list.ips).ip
+    server_name: webproxt.getObjectByLocation('newyork',proxy_list.servers).server_name,
     selip: webproxy.getObjectByLocation('newyork',proxy_list.ips).ip
 }
 ```
