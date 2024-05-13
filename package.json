@@ -1,6 +1,6 @@
 {
   "name": "4everproxy",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "4everproxy is a secure and anonymous web proxy. Hide your IP address while browsing the Internet.",
   "main": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
