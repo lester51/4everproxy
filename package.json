@@ -1,0 +1,21 @@
+{
+  "name": "4everproxy",
+  "version": "1.0.6",
+  "description": "4everproxy is a secure and anonymous web proxy. Hide your IP address while browsing the Internet.",
+  "main": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+       "import": "./dist/esm/index.js",
+       "require": "./dist/cjs/index.js",
+       "default": "./dist/esm/index.js"
+   },
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "request": "2.88.2"
+  },
+  "author": "HackMeSenpai",
+  "license": "MIT"
+}
