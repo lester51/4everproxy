@@ -1,6 +1,6 @@
 {
   "name": "4everproxy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "4everproxy is a secure and anonymous web proxy. Hide your IP address while browsing the Internet.",
   "main": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -17,5 +17,16 @@
     "request": "2.88.2"
   },
   "author": "HackMeSenpai",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lester51/4everproxy.git"
+  },
+  "keywords": [
+    "webproxy", "proxy", "free-proxy", "free-web-proxy", "web-proxy", "4everproxy", "bypass-cloudflare", "bypass-anti-bot", "unblock-website", "cloudflare-bypass", "cf-bypass"
+  ],
+  "bugs": {
+    "url": "https://github.com/lester51/4everproxy/issues"
+  },
+  "homepage": "https://github.com/lester51/4everproxy#readme"
 }
