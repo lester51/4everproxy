@@ -13,7 +13,7 @@ module.exports.proxy = (data,jar) => {
     	            'content-type': 'application/x-www-form-urlencoded',
     	        },
             body: qs.stringify(data)
-        },(e,r,b)=>(!e && r.statusCode == 200) ? res(b) : rej(e))
+        },(e,r,b)=>(!e && r.statusCode == 200) ? res({headers: r.headers, body: b}) : rej(e))
     })
 }
 
